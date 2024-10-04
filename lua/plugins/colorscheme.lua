@@ -8,17 +8,24 @@ return {
   },
 
   {
+    "craftzdog/solarized-osaka.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+
+  {
     "catppuccin",
     opts = {
-      --transparent_background = true,
+      transparent_background = true,
     },
   },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "catppuccin-mocha",
+      -- colorscheme = "solarized-osaka",
       -- colorscheme = "catppuccin-frappe",
     },
   },
